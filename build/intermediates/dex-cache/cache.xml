@@ -3,11 +3,20 @@
 
     <item
         is-multidex="true"
+        jar="/Users/jiaxin/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.5/dc65bb2f51828c58b1b2b3ac585357204d54ee5f/gdx-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
+        <dex dex="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-1.9.5_abd43fdc698e4b689d0aa27cebe04f04338b6655/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0d3a0771761a1286e7c209a1f9b01c2196afa987">
+        sha1="a557e042f9c525b74176b890dd3d46f0cc1a33c1">
         <dex dex="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eb1df75089f2541137bee54b5d74fc6b7e5bb4e6/classes.dex" />
     </item>
     <item
@@ -21,20 +30,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jiaxin/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.5/dc65bb2f51828c58b1b2b3ac585357204d54ee5f/gdx-1.9.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="dc65bb2f51828c58b1b2b3ac585357204d54ee5f">
-        <dex dex="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-1.9.5_abd43fdc698e4b689d0aa27cebe04f04338b6655/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="031d67d951369646bd4bee9ea68b5636f69cbbd8">
+        sha1="b1ccbd892a281cc18409110111d7dea95460d1ad">
         <dex dex="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c82ee67d8f0a500c63567f606cad824f1d0912db/classes.dex" />
     </item>
 

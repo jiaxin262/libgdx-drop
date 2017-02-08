@@ -1,15 +1,27 @@
 #Internal package file, do not edit.
-#Sat Feb 04 20:12:30 CST 2017
-1.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_
-1.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_/resources.arsc
+#Wed Feb 08 10:46:49 CST 2017
 2.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug
-3.set=ANDROID_RESOURCE
-2.set=ASSET
-2.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug/badlogic.jpg
-count=4
-1.set=ANDROID_RESOURCE
+5.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug/drop.wav
+5.set=ASSET
 3.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_
-0.set=ANDROID_RESOURCE
-0.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_
-3.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
-0.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+6.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug/badlogic.jpg
+2.set=ASSET
+4.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_
+7.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+7.set=ANDROID_RESOURCE
+count=8
+0.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug/droplet.png
+5.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug
+4.set=ANDROID_RESOURCE
+6.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug
+1.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug/rain.mp3
+1.set=ASSET
+7.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_
+2.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug/bucket.jpg
+6.set=ASSET
+0.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug
+3.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+3.set=ANDROID_RESOURCE
+1.base=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/assets/debug
+4.file=/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.set=ASSET
