@@ -18,6 +18,15 @@ import java.util.Iterator;
 
 public class Drop extends ApplicationAdapter {
 
+    private final int VIEW_PORT_HEIGHT = 1080;
+    private final int VIEW_PORT_WIDTH = 1920;
+    private final int BUCKET_WIDTH = 120;
+    private final int BUCKET_HEIGHT = 136;
+    private final int DROPLET_WIDTH = 24;
+    private final int DROPLET_HEIGHT = 46;
+    private final float DROPLET_SPEED = 500f;
+    private final long DROPLET_GENERATE_INTERVAL = 100000000;
+
     private Texture dropImage;
     private Texture bucketImage;
     private Sound dropSound;
@@ -45,15 +54,15 @@ public class Drop extends ApplicationAdapter {
         rainMusic.play();
 
         camera = new OrthographicCamera();
-        camera.setToOrtho(false, 800, 480);
+        camera.setToOrtho(false, VIEW_PORT_WIDTH, VIEW_PORT_HEIGHT);
 
         batch = new SpriteBatch();
 
         bucket = new Rectangle();
-        bucket.x = 800 / 2 - 64 / 2;
+        bucket.x = VIEW_PORT_WIDTH / 2 - BUCKET_WIDTH / 2;
         bucket.y = 20;
-        bucket.width = 64;
-        bucket.height = 64;
+        bucket.width = BUCKET_WIDTH;
+        bucket.height = BUCKET_HEIGHT;
 
         raindrops = new Array<Rectangle>();
         spawnRaindrop();
@@ -77,17 +86,17 @@ public class Drop extends ApplicationAdapter {
         if(Gdx.input.isTouched()) {
             touchPos.set(Gdx.input.getX(), Gdx.input.getY(), 0);
             camera.unproject(touchPos);
-            bucket.x = touchPos.x - 64 / 2;
+            bucket.x = touchPos.x - BUCKET_WIDTH / 2;
         }
 
-        if(TimeUtils.nanoTime() - lastDropTime > 1000000000) {
+        if(TimeUtils.nanoTime() - lastDropTime > DROPLET_GENERATE_INTERVAL) {
             spawnRaindrop();
         }
         Iterator<Rectangle> iter = raindrops.iterator();
         while(iter.hasNext()) {
             Rectangle raindrop = iter.next();
-            raindrop.y -= 200 * Gdx.graphics.getDeltaTime();
-            if(raindrop.y + 64 < 0) {
+            raindrop.y -= DROPLET_SPEED * Gdx.graphics.getDeltaTime();
+            if(raindrop.y + DROPLET_HEIGHT < 0) {
                 iter.remove();
             }
             if(raindrop.overlaps(bucket)) {
@@ -99,10 +108,10 @@ public class Drop extends ApplicationAdapter {
 
     private void spawnRaindrop() {
         Rectangle raindrop = new Rectangle();
-        raindrop.x = MathUtils.random(0, 800-64);
-        raindrop.y = 480;
-        raindrop.width = 64;
-        raindrop.height = 64;
+        raindrop.x = MathUtils.random(0, VIEW_PORT_WIDTH - DROPLET_WIDTH);
+        raindrop.y = VIEW_PORT_HEIGHT;
+        raindrop.width = DROPLET_WIDTH;
+        raindrop.height = DROPLET_HEIGHT;
         raindrops.add(raindrop);
         lastDropTime = TimeUtils.nanoTime();
     }
