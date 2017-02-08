@@ -5,33 +5,47 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="3663264798994"
+    timestamp="14914537182413"
     token="-3463318782976552065"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="404" />
+        duration="72" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="353" />
+        duration="21" />
     <task
         name="verifier"
-        duration="10" />
+        duration="0" />
 
     <artifact
-        location="/Users/jiaxin/projects/libGDXProjects/drop/android/build/outputs/apk/android-debug.apk"
-        type="MAIN" />
+        location="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="3663264798994"
+        timestamp="13386632595397"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jiaxin/projects/libGDXProjects/drop/android/build/outputs/apk/android-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="14521942616554"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="14914537182413"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jiaxin/projects/libGDXProjects/drop/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
